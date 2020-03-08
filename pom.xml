@@ -5,6 +5,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>s9_ehcache</module>
+        <module>S9_redis</module>
+        <module>s10_security</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
