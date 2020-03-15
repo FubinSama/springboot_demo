@@ -7,6 +7,16 @@
         <module>s9_ehcache</module>
         <module>S9_redis</module>
         <module>s10_security</module>
+        <module>s10_security2</module>
+        <module>s10_security3</module>
+        <module>s10_security4</module>
+        <module>s10_oauth</module>
+        <module>s10_shiro</module>
+        <module>s11_websocket</module>
+        <module>s11_websocket2</module>
+        <module>s13_email</module>
+        <module>s13_scheduled</module>
+        <module>s13_batch</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
