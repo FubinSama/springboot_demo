@@ -83,6 +83,10 @@ expires_in为access_token的过期时间
 
 ## s12：消息服务
 
+### 12.1：springboot整合ActiveMQ（使用JMS）
+
+### 12.2：springboot整合RabbitMQ（使用AMQP）
+
 ## s13：企业开发
 
 ###　13.1：邮件发送
@@ -99,3 +103,26 @@ thymeleaf模板默认放在resources/templates目录下，后缀为html
 ### 13.3：批处理
 
 ### 13.4：swagger2
+
+Swagger2是一个开源软件框架，可以帮助开发人员设计、构建、记录和使用RESTful Web服务，它将代码和文档融为一体，
+使开发人员将大部门精力集中到业务中，而不是繁杂琐碎的文档中
+一般情况下：get为查询；post为添加；put为修改；delete为删除。
+通过`http://localhost:8080/swagger-ui.html`进入接口文档页面
+
+### 13.5:数据校验validate
+
+普通校验：详见User类，UserController的addUser方法
+分组校验：详见User2类，UserController的addUser2方法,和两个接口
+
+## s14：应用监控actuator
+
+### 14.1：health和info端点的配置
+
+### 14.2：监控信息可视化
+
+包括客户端和服务器两部分,因为无法在module中创建，所以demo的测试没有在这里包含
+
+### 14.3：邮件报警
+
+要想实现邮件报警，只需在AdminServer添加spring-boot-starter-mail依赖，并配置邮件发送基本信息
+

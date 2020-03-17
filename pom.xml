@@ -14,9 +14,14 @@
         <module>s10_shiro</module>
         <module>s11_websocket</module>
         <module>s11_websocket2</module>
+        <module>s12_activemq</module>
+        <module>s12_rabbitmq</module>
         <module>s13_email</module>
         <module>s13_scheduled</module>
         <module>s13_batch</module>
+        <module>s13_swagger</module>
+        <module>s13_validate</module>
+        <module>s14_actuator</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
